@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141020095748) do
+ActiveRecord::Schema.define(version: 20141020120113) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -232,8 +232,10 @@ ActiveRecord::Schema.define(version: 20141020095748) do
     t.integer  "roles_mask"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "authentication_token"
   end
 
+  add_index "atmosphere_users", ["authentication_token"], name: "index_atmosphere_users_on_authentication_token", unique: true, using: :btree
   add_index "atmosphere_users", ["email"], name: "index_atmosphere_users_on_email", unique: true, using: :btree
   add_index "atmosphere_users", ["login"], name: "index_atmosphere_users_on_login", unique: true, using: :btree
 
