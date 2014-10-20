@@ -1,0 +1,7 @@
+=content_for :head do
+  %script{src: 'clew/clew.nocache.js'}
+
+:javascript
+  var ClewOverrides = { cloudFacadeUrl: '/api/v1/' }
+
+#clewContainer
