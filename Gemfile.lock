@@ -1,5 +1,7 @@
-PATH
-  remote: /home/marek/git/atmosphere
+GIT
+  remote: https://gitlab.dev.cyfronet.pl/atmosphere/atmosphere.git
+  revision: 25c48e20ab0feb1b8e0c1dcc5eedbeca97795f05
+  branch: master
   specs:
     atmosphere (0.0.1)
       active_model_serializers (~> 0.8.0)
@@ -74,7 +76,7 @@ GEM
       rake (>= 0.8.7)
     arel (5.0.1.20140414130214)
     awesome_print (1.2.0)
-    bcrypt (3.1.7)
+    bcrypt (3.1.9)
     better_errors (2.0.0)
       coderay (>= 1.0.0)
       erubis (>= 2.6.6)
@@ -135,7 +137,7 @@ GEM
       fog-softlayer
       ipaddress (~> 0.5)
       nokogiri (~> 1.5, >= 1.5.11)
-    fog-brightbox (0.5.1)
+    fog-brightbox (0.6.1)
       fog-core (~> 1.22)
       fog-json
       inflecto
@@ -155,13 +157,13 @@ GEM
     fog-sakuracloud (0.1.1)
       fog-core
       fog-json
-    fog-softlayer (0.3.20)
+    fog-softlayer (0.3.23)
       fog-core
       fog-json
     fog-xml (0.1.0)
       fog-core
       nokogiri (~> 1.5, >= 1.5.11)
-    font-awesome-sass (4.2.0)
+    font-awesome-sass (4.2.2)
       sass (~> 3.2)
     foreigner (1.6.1)
       activerecord (>= 3.0.0)
@@ -282,7 +284,7 @@ GEM
     rdoc (4.1.2)
       json (~> 1.4)
     redcarpet (3.2.0)
-    redirus (0.1.1)
+    redirus (0.1.2)
       sidekiq
     redis (3.1.0)
     redis-namespace (1.5.1)
@@ -331,7 +333,7 @@ GEM
     showdown-rails (0.0.4)
       actionpack (>= 3.1)
       railties (>= 3.1)
-    sidekiq (3.2.2)
+    sidekiq (3.2.4)
       celluloid (>= 0.15.2)
       connection_pool (>= 2.0.0)
       json

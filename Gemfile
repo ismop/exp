@@ -22,7 +22,9 @@ gem 'turbolinks'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
-gem 'atmosphere', path: '/home/marek/git/atmosphere'
+gem 'atmosphere',
+    git: 'https://gitlab.dev.cyfronet.pl/atmosphere/atmosphere.git',
+    branch: 'master'
 
 group :development do
   gem 'annotate'
