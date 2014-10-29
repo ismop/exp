@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: exp_production
-  username: exp
+  username: <%= ENV['EXP_DATABASE_USERNAME'] || 'exp' %>
   password: <%= ENV['EXP_DATABASE_PASSWORD'] %>
