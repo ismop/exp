@@ -1,6 +1,6 @@
 GIT
   remote: https://gitlab.dev.cyfronet.pl/atmosphere/atmosphere.git
-  revision: e9a0937adc397ccf698478895085dd8f27933fa0
+  revision: 685f2848bc214214ed0a40d334c1e36a8bfa1471
   branch: master
   specs:
     atmosphere (0.0.1)
