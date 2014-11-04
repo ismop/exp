@@ -2,6 +2,10 @@
   %script{src: 'clew/clew.nocache.js'}
 
 :javascript
-  var ClewOverrides = { cloudFacadeUrl: '/api/v1/' }
+  var ClewOverrides = {
+    cloudFacadeUrl: '/api/v1',
+    private_token: '#{current_user.authentication_token}',
+    username: '#{current_user.login}'
+  }
 
 #clewContainer
