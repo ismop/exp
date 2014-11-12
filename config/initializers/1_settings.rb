@@ -4,5 +4,5 @@ class Settings < Settingslogic
 
   Settings['sidekiq'] ||= Settingslogic.new({})
   Settings.sidekiq['url'] ||= "redis://localhost:6379"
-  Settings.sidekiq['namespace'] ||= "atmosphere"
+  Settings.sidekiq['namespace'] ||= "exp"
 end

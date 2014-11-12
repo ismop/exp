@@ -1,0 +1,11 @@
+# EXP logrotate settings
+# based on: http://stackoverflow.com/a/4883967
+
+/home/exp/current/log/*.log {
+    daily
+    missingok
+    rotate 90
+    compress
+    notifempty
+    copytruncate
+}

@@ -1,0 +1,14 @@
+defaults: &defaults
+  #sidekiq:
+  #  url: redis://localhost:6379
+  #  namespace: exp
+
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
