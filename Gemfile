@@ -26,6 +26,9 @@ gem 'atmosphere',
     git: 'https://gitlab.dev.cyfronet.pl/atmosphere/atmosphere.git',
     branch: 'master'
 
+# Cross-Origin Resource Scharing for external UIs
+gem 'rack-cors', :require => 'rack/cors'
+
 group :development do
   gem 'annotate'
   gem 'quiet_assets'
