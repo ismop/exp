@@ -1,6 +1,6 @@
 GIT
   remote: https://gitlab.dev.cyfronet.pl/atmosphere/atmosphere.git
-  revision: d418e6486ce31b631b47f4d6089d84771ecaa39f
+  revision: c9c97c38ffbbf03aafe1513f295e93979671f48b
   branch: master
   specs:
     atmosphere (0.0.1)
@@ -42,29 +42,29 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    actionmailer (4.1.6)
-      actionpack (= 4.1.6)
-      actionview (= 4.1.6)
+    actionmailer (4.1.8)
+      actionpack (= 4.1.8)
+      actionview (= 4.1.8)
       mail (~> 2.5, >= 2.5.4)
-    actionpack (4.1.6)
-      actionview (= 4.1.6)
-      activesupport (= 4.1.6)
+    actionpack (4.1.8)
+      actionview (= 4.1.8)
+      activesupport (= 4.1.8)
       rack (~> 1.5.2)
       rack-test (~> 0.6.2)
-    actionview (4.1.6)
-      activesupport (= 4.1.6)
+    actionview (4.1.8)
+      activesupport (= 4.1.8)
       builder (~> 3.1)
       erubis (~> 2.7.0)
     active_model_serializers (0.8.2)
       activemodel (>= 3.0)
-    activemodel (4.1.6)
-      activesupport (= 4.1.6)
+    activemodel (4.1.8)
+      activesupport (= 4.1.8)
       builder (~> 3.1)
-    activerecord (4.1.6)
-      activemodel (= 4.1.6)
-      activesupport (= 4.1.6)
+    activerecord (4.1.8)
+      activemodel (= 4.1.8)
+      activesupport (= 4.1.8)
       arel (~> 5.0.0)
-    activesupport (4.1.6)
+    activesupport (4.1.8)
       i18n (~> 0.6, >= 0.6.9)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
@@ -196,7 +196,7 @@ GEM
     hashie (3.3.1)
     hike (1.2.3)
     hitimes (1.2.2)
-    i18n (0.6.11)
+    i18n (0.7.0)
     inflecto (0.0.2)
     influxdb (0.1.8)
       json
@@ -217,12 +217,12 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     lumberjack (1.0.9)
-    mail (2.6.1)
+    mail (2.6.3)
       mime-types (>= 1.16, < 3)
     method_source (0.8.2)
-    mime-types (2.4.2)
+    mime-types (2.4.3)
     mini_portile (0.6.0)
-    minitest (5.4.2)
+    minitest (5.5.0)
     multi_json (1.10.1)
     multipart-post (2.0.0)
     net-scp (1.2.1)
@@ -253,15 +253,15 @@ GEM
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
-    rails (4.1.6)
-      actionmailer (= 4.1.6)
-      actionpack (= 4.1.6)
-      actionview (= 4.1.6)
-      activemodel (= 4.1.6)
-      activerecord (= 4.1.6)
-      activesupport (= 4.1.6)
+    rails (4.1.8)
+      actionmailer (= 4.1.8)
+      actionpack (= 4.1.8)
+      actionview (= 4.1.8)
+      activemodel (= 4.1.8)
+      activerecord (= 4.1.8)
+      activesupport (= 4.1.8)
       bundler (>= 1.3.0, < 2.0)
-      railties (= 4.1.6)
+      railties (= 4.1.8)
       sprockets-rails (~> 2.0)
     rails_best_practices (1.15.4)
       activesupport
@@ -273,12 +273,12 @@ GEM
       json
       require_all
       ruby-progressbar
-    railties (4.1.6)
-      actionpack (= 4.1.6)
-      activesupport (= 4.1.6)
+    railties (4.1.8)
+      actionpack (= 4.1.8)
+      activesupport (= 4.1.8)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
-    rake (10.3.2)
+    rake (10.4.2)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -356,7 +356,7 @@ GEM
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-    sprockets-rails (2.2.0)
+    sprockets-rails (2.2.2)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
@@ -405,7 +405,7 @@ DEPENDENCIES
   puma
   quiet_assets
   rack-cors
-  rails (= 4.1.6)
+  rails (= 4.1.8)
   rails_best_practices
   rspec-rails
   sass-rails (~> 4.0.3)
