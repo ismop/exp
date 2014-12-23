@@ -1,5 +1,5 @@
 GIT
-  remote: https://gitlab.dev.cyfronet.pl/atmosphere/atmosphere.git
+  remote: git://github.com/dice-cyfronet/atmosphere.git
   revision: c9c97c38ffbbf03aafe1513f295e93979671f48b
   branch: master
   specs:
