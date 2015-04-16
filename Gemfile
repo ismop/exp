@@ -24,7 +24,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 gem 'atmosphere',
     github: 'dice-cyfronet/atmosphere',
-    branch: 'deps_upgrade'
+    branch: 'master'
 
 # Cross-Origin Resource Scharing for external UIs
 gem 'rack-cors', :require => 'rack/cors'
