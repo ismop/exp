@@ -4,8 +4,10 @@
 :javascript
   var ClewOverrides = {
     cloudFacadeUrl: '/api/v1',
-    private_token: '#{current_user.authentication_token}',
-    username: '#{current_user.login}'
+    username: '#{current_user.login}',
+    roles: #{current_user.roles.map(&:to_s)},
+    csrf_header_name: 'X-CSRF-Token',
+    csrf_token: '#{form_authenticity_token}'
   }
 
 #clewContainer
