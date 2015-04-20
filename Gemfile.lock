@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/dice-cyfronet/atmosphere.git
-  revision: cafa16c80db69d30e703a1d6eb0bc1eeb9f3bf2a
+  revision: ded5a42ca84d7c91971f4e1a210087dfec2423a7
   branch: master
   specs:
     atmosphere (0.0.1)
@@ -84,7 +84,7 @@ GEM
       addressable (>= 2.3.1)
       extlib (>= 0.9.15)
       multi_json (>= 1.0.0)
-    autoprefixer-rails (5.1.9)
+    autoprefixer-rails (5.1.11)
       execjs
       json
     bcrypt (3.1.10)
@@ -134,7 +134,7 @@ GEM
     enumerize (0.11.0)
       activesupport (>= 3.2)
     erubis (2.7.0)
-    excon (0.45.1)
+    excon (0.45.2)
     execjs (2.5.2)
     extlib (0.9.16)
     factory_girl (4.5.0)
@@ -439,7 +439,7 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
-    sentry-raven (0.13.0)
+    sentry-raven (0.13.1)
       faraday (>= 0.7.6)
     settingslogic (2.0.9)
     sexp_processor (4.5.0)
@@ -492,7 +492,7 @@ GEM
       json (>= 1.8.0)
     unf (0.1.4)
       unf_ext
-    unf_ext (0.0.6)
+    unf_ext (0.0.7.1)
     warden (1.2.3)
       rack (>= 1.0)
     will_paginate (3.0.7)
