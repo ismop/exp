@@ -58,7 +58,7 @@ group :test do
   gem 'shoulda-matchers'
 
   gem 'factory_girl'
-  gem 'ffaker'
+  gem 'ffaker', '~>2.0.0'
   gem 'database_cleaner'
 end
 

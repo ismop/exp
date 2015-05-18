@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/dice-cyfronet/atmosphere.git
-  revision: ded5a42ca84d7c91971f4e1a210087dfec2423a7
+  revision: acb2c31eed7c3f319f7ddf605e5e6457487e1f83
   branch: master
   specs:
     atmosphere (0.0.1)
@@ -134,7 +134,7 @@ GEM
     enumerize (0.11.0)
       activesupport (>= 3.2)
     erubis (2.7.0)
-    excon (0.45.2)
+    excon (0.45.3)
     execjs (2.5.2)
     extlib (0.9.16)
     factory_girl (4.5.0)
@@ -145,12 +145,13 @@ GEM
     ffi (1.9.8)
     fission (0.5.0)
       CFPropertyList (~> 2.2)
-    fog (1.29.0)
+    fog (1.30.0)
       fog-atmos
       fog-aws (~> 0.0)
       fog-brightbox (~> 0.4)
       fog-core (~> 1.27, >= 1.27.4)
       fog-ecloud
+      fog-google (>= 0.0.2)
       fog-json
       fog-local
       fog-powerdns (>= 0.1.1)
@@ -188,6 +189,10 @@ GEM
       net-ssh (>= 2.1.3)
     fog-ecloud (0.1.1)
       fog-core
+      fog-xml
+    fog-google (0.0.5)
+      fog-core
+      fog-json
       fog-xml
     fog-json (1.0.1)
       fog-core (~> 1.0)
@@ -253,11 +258,11 @@ GEM
       multi_json (~> 1.10)
       retriable (~> 1.4)
       signet (~> 0.6)
-    googleauth (0.4.0)
+    googleauth (0.4.1)
       faraday (~> 0.9)
       jwt (~> 1.4)
-      logging (~> 1.8)
-      memoist (~> 0.11)
+      logging (~> 2.0)
+      memoist (~> 0.12)
       multi_json (= 1.11)
       signet (~> 0.6)
     gravtastic (3.2.6)
@@ -307,7 +312,7 @@ GEM
       railties (>= 3.1.0)
       turbolinks
     json (1.8.2)
-    jwt (1.4.1)
+    jwt (1.5.0)
     launchy (2.4.3)
       addressable (~> 2.3)
     letter_opener (1.3.0)
@@ -317,9 +322,9 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     little-plugger (1.1.3)
-    logging (1.8.2)
-      little-plugger (>= 1.1.3)
-      multi_json (>= 1.8.4)
+    logging (2.0.0)
+      little-plugger (~> 1.1)
+      multi_json (~> 1.10)
     lumberjack (1.0.9)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
@@ -327,9 +332,9 @@ GEM
     method_source (0.8.2)
     migratio (0.0.3)
       sidekiq
-    mime-types (2.4.3)
+    mime-types (2.5)
     mini_portile (0.6.2)
-    minitest (5.6.0)
+    minitest (5.6.1)
     multi_json (1.11.0)
     multipart-post (2.0.0)
     nenv (0.2.0)
@@ -341,7 +346,7 @@ GEM
     notiffany (0.0.6)
       nenv (~> 0.1)
       shellany (~> 0.0)
-    nprogress-rails (0.1.6.6)
+    nprogress-rails (0.1.6.7)
     omniauth (1.2.2)
       hashie (>= 1.2, < 4)
       rack (~> 1.0)
@@ -357,7 +362,7 @@ GEM
       rack (>= 1.1, < 2.0)
     quiet_assets (1.1.0)
       railties (>= 3.1, < 5.0)
-    rack (1.5.2)
+    rack (1.5.3)
     rack-cors (0.4.0)
     rack-protection (1.5.3)
       rack
@@ -439,17 +444,17 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
-    sentry-raven (0.13.1)
+    sentry-raven (0.13.2)
       faraday (>= 0.7.6)
     settingslogic (2.0.9)
-    sexp_processor (4.5.0)
+    sexp_processor (4.5.1)
     shellany (0.0.1)
     shoulda-matchers (2.8.0)
       activesupport (>= 3.0.0)
     showdown-rails (0.0.4)
       actionpack (>= 3.1)
       railties (>= 3.1)
-    sidekiq (3.3.3)
+    sidekiq (3.3.4)
       celluloid (>= 0.16.0)
       connection_pool (>= 2.1.1)
       json
@@ -472,9 +477,9 @@ GEM
     spring (1.3.4)
     spring-commands-rspec (1.0.4)
       spring (>= 0.9.1)
-    sprockets (3.0.1)
+    sprockets (3.1.0)
       rack (~> 1.0)
-    sprockets-rails (2.2.4)
+    sprockets-rails (2.3.0)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
@@ -511,7 +516,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   database_cleaner
   factory_girl
-  ffaker
+  ffaker (~> 2.0.0)
   foreman
   guard-rspec
   guard-spring
