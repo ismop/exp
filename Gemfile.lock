@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/dice-cyfronet/atmosphere.git
-  revision: acb2c31eed7c3f319f7ddf605e5e6457487e1f83
+  revision: fa14d26dbd3b0e2cc9a6349f561536376094230a
   branch: master
   specs:
     atmosphere (0.0.1)
@@ -171,7 +171,7 @@ GEM
     fog-atmos (0.1.0)
       fog-core
       fog-xml
-    fog-aws (0.1.2)
+    fog-aws (0.2.2)
       fog-core (~> 1.27)
       fog-json (~> 1.0)
       fog-xml (~> 0.1)
@@ -221,7 +221,7 @@ GEM
     fog-serverlove (0.1.2)
       fog-core
       fog-json
-    fog-softlayer (0.4.5)
+    fog-softlayer (0.4.6)
       fog-core
       fog-json
     fog-storm_on_demand (0.1.1)
@@ -351,7 +351,7 @@ GEM
       hashie (>= 1.2, < 4)
       rack (~> 1.0)
     orm_adapter (0.5.0)
-    pg (0.18.1)
+    pg (0.18.2)
     pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -444,7 +444,7 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
-    sentry-raven (0.13.2)
+    sentry-raven (0.13.3)
       faraday (>= 0.7.6)
     settingslogic (2.0.9)
     sexp_processor (4.5.1)
@@ -479,7 +479,7 @@ GEM
       spring (>= 0.9.1)
     sprockets (3.1.0)
       rack (~> 1.0)
-    sprockets-rails (2.3.0)
+    sprockets-rails (2.3.1)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
@@ -501,7 +501,7 @@ GEM
     warden (1.2.3)
       rack (>= 1.0)
     will_paginate (3.0.7)
-    zabbixapi (2.4.2)
+    zabbixapi (2.4.3)
       json (~> 1.6, >= 1.6.0)
 
 PLATFORMS
