@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.10'
+gem 'rails', '4.2.1'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
@@ -24,7 +24,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 gem 'atmosphere',
     github: 'dice-cyfronet/atmosphere',
-    branch: 'master'
+    branch: 'rails_4.2'
 
 # Cross-Origin Resource Scharing for external UIs
 gem 'rack-cors', :require => 'rack/cors'
